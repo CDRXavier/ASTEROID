@@ -1,2 +1,0 @@
-# ASTROID
-ASTROID!
