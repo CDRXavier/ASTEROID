@@ -1,4 +1,36 @@
 ASTROIDS
 
-The classic 2D space-shooter. Ammo in the box.
-Erm...shooting things currently do not do anything. Try harder.
+The classic 2D space-shooter. Ammo in the bottomless box.
+
+Shoot at dangerous asteroids threatening to knock your ship apart, dodge the rocks, and watch the pebbles explode into your score, all while
+floating around. Go to HyperSpace and appear in a new location, but don't use it too much, or it will corrupt your ship or send you inside an asteroid.
+
+And enter your highscore!
+
+HELP: HELP:
+Need someone to improve the ship sprite.
+Also need someone to inprove the sound. (if possible)
+
+Controls:
+In home screen:
+A_BUTTON to view high score
+B_BUTTON to begin game
+UP_BUTTON || DOWN_BUTTON to mute/unmute sound
+
+When gaming:
+A_BUTTON to pause
+B_BUTTON to shoot
+UP_BUTTON to activate thrusters
+DOWN_BUTTON to Hyperspace
+LEFT_BUTTON || RIGHT_BUTTON to turn
+
+When paused:
+
+!!!**B_BUTTON**!!! to unpause
+A_BUTTON to exit to homescreen
+
+When viewing highscore:
+A_BUTTON to return to homescreen
+LEFT_BUTTON to confirm highscore erase (I know guys with dumb fingers)
+
+Un-spash the screen if you wanted to have all variables in your face
