@@ -659,39 +659,38 @@ void loop() {
   }
 
   //begin printObj
-  //debug use
-  arduboy.setTextSize(1);
-  arduboy.setCursor(2, 10);
-  arduboy.print(score);
-  arduboy.setCursor(32, 10);
-  arduboy.print(level);
-  arduboy.setCursor(120, 10);
-  arduboy.print(life);
+  //splash screen
+  //arduboy.setTextSize(1);
+  //arduboy.setCursor(2, 10);
+  //arduboy.print(score);
+  //arduboy.setCursor(32, 10);
+  //arduboy.print(level);
+  //arduboy.setCursor(120, 10);
+  //arduboy.print(life);
 
-  arduboy.setCursor(44, 10);
-  arduboy.print(HDG);
-  arduboy.setCursor(60, 10);
-  arduboy.print(asteroidCount);
-  arduboy.setCursor(78, 10);
-  arduboy.print(rockCount);
-  arduboy.setCursor(96, 10);
-  arduboy.print(pebbleCount);
-  arduboy.setCursor(110, 10);
-  arduboy.print(bulletCount);
+  //arduboy.setCursor(44, 10);
+  //arduboy.print(HDG);
+  //arduboy.setCursor(60, 10);
+  //arduboy.print(asteroidCount);
+  //arduboy.setCursor(78, 10);
+  //arduboy.print(rockCount);
+  //arduboy.setCursor(96, 10);
+  //arduboy.print(pebbleCount);
+  //arduboy.setCursor(110, 10);
+  //arduboy.print(bulletCount);
 
-  arduboy.setCursor(100, 25);
-  arduboy.print(shipX);
-  arduboy.setCursor(100, 35);
-  arduboy.print(shipY);
-  arduboy.setCursor(100, 45);
-  arduboy.print(moveX);
-  arduboy.setCursor(100, 55);
-  arduboy.print(moveY);
-  arduboy.setCursor(10, 50);
-  arduboy.print(tick);
-  arduboy.setCursor(10, 30);
-  arduboy.print(arduboy.cpuLoad());
-  //debug use
+  //arduboy.setCursor(100, 25);
+  //arduboy.print(shipX);
+  //arduboy.setCursor(100, 35);
+  //arduboy.print(shipY);
+  //arduboy.setCursor(100, 45);
+  //arduboy.print(moveX);
+  //arduboy.setCursor(100, 55);
+  //arduboy.print(moveY);
+  //arduboy.setCursor(10, 50);
+  //arduboy.print(tick);
+  //arduboy.setCursor(10, 30);
+  //arduboy.print(arduboy.cpuLoad());
 
 
 
