@@ -172,7 +172,7 @@ void asteroid() {
         bulletCount = bulletCount - 1;
 
         arduboy.tunes.tone(150, 50);
-        score = score + 5;
+        score = score + 2;
 
         rocks[rockCount][0] = asteroids[t][0];
         rocks[rockCount][2] = asteroids[t][2];
@@ -230,7 +230,7 @@ void rock() {
         bulletCount = bulletCount - 1;
 
         arduboy.tunes.tone(150, 50);
-        score = score + 10;
+        score = score + 4;
 
         pebbles[pebbleCount][0] = rocks[r][0];
         pebbles[pebbleCount][2] = rocks[r][2];
@@ -282,7 +282,7 @@ void pebble() {
         bulletCount = bulletCount - 1;
 
         arduboy.tunes.tone(150, 50);
-        score = score + 15;
+        score = score + 8;
 
         for (uint8_t c = p; c < pebbleCount - 1; c++) {
           pebbleDraw[c] = pebbleDraw[c + 1];
