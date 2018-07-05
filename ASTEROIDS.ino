@@ -710,7 +710,7 @@ void loop() {
   //end display
 
   //begin pollButtons
-  if (arduboy.notPressed(A_BUTTON | B_BUTTON | UP_BUTTON | DOWN_BUTTON | LEFT_BUTTON | RIGHT_BUTTON))
+  if (arduboy.notPressed(A_BUTTON | B_BUTTON | UP_BUTTON | DOWN_BUTTON))
     released = true;
   //end pollButtons
 }
